@@ -5,3 +5,11 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './example';
+@import './components/gallery';
+
+@import './base/base';
+@import './base/container';
+@import './base/section';
+
+@import './utils/breakpoints';
+@import './utils/variables';

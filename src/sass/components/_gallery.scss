@@ -1,0 +1,52 @@
+.section__gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%px;
+    height: 122px;
+    background-image: linear-gradient(
+        to top,
+        #ffffff 60%,
+        #FFF5F6 60%,
+        #fff5f6
+    );
+}
+
+.section__gallery_img {
+    width: 320px;
+    height: 100%;
+    background-image: url("../images/gallery/gallery-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center; 
+}
+
+@media screen and (min-width: 768px) {
+    .section__gallery {
+        width: 100%;
+        height: 264px;
+    }
+    .section__gallery_img {
+      width: 786px;
+      height: 264px;
+      background-image: url("../images/gallery/gallery-tablet.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center, center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section__gallery {
+        width: 100%;
+        height: 430px;
+    }
+
+    .section__gallery_img {
+        width: 1200px;
+        height: 430px;
+        background-image: url("../images/gallery/gallery-desktop.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, center;
+    }
+}
