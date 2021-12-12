@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/demo.jpg":[["demo.090c7c6d.jpg","nKR3"],"nKR3"],"./../images/gallery/gallery-mobile.png":[["gallery-mobile.2f170557.png","keaA"],"keaA"],"./../images/gallery/gallery-tablet.png":[["gallery-tablet.878f17ff.png","jZux"],"jZux"],"./../images/gallery/gallery-desktop.png":[["gallery-desktop.f724d2c0.png","g95E"],"g95E"],"./../images/customer-review/quotes.svg":[["quotes.d7854d75.svg","fZSs"],"fZSs"],"./../images/customer-review/home.svg":[["home.39aa8f0a.svg","qKKb"],"qKKb"],"./../images/contacts/contacts-bg.png":[["contacts-bg.30c23fa5.png","M02S"],"M02S"],"./../images/contacts/contacts-bg-2x.png":[["contacts-bg-2x.30c23fa5.png","eDdD"],"eDdD"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-cream-self/src.c97af888.js.map
+//# sourceMappingURL=/ice-cream-self/src.b8bcba6d.js.map
