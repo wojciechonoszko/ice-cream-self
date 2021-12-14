@@ -6,6 +6,7 @@
     justify-content: space-between;
   }
   .products-container {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,6 +84,6 @@
   }
   .product__img {
     position: absolute;
-    top: 175px;
+    bottom: 500px;
   }
   

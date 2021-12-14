@@ -1,0 +1,273 @@
+.section__about {
+    background-color: $sections-background;
+    background-image: url("../images/about/about-bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 80%;
+    padding-top: 130px;
+    height: 1030px;
+
+    
+   
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      
+      background-image: url('../images/about/about-bg-mobile@2x.png');
+    
+     
+}
+    @media screen and (min-width: 768px) {
+        background-image: none;
+        height: 760px;
+        padding-top: 130px;
+        
+
+    
+}  
+    @media screen and (min-width: $desktop) {
+        height: 890px;
+        background-size:100%;
+        background-image: url('../images/about/about-bg-desktop.png');
+        background-position: bottom;
+        padding-top: 130px;
+        
+
+        @media (min-device-pixel-ratio: 2),
+          (-webkit-min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+      
+          background-image: url('../images/about/about-bg-desktop@2x.png');
+    
+     
+}
+
+}  
+}
+
+
+
+.about__header {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Titan One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.15em;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #D41443;
+
+}
+.about {
+    &__label{
+        width: 240px; 
+        height: 21px;
+        font-size: 18px;
+        line-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+   
+        color: #FFA5BA;
+
+        @media screen and (min-width: 768px) {
+            width: 320px; 
+            height: 30px;
+            font-size: 26px;
+            margin-bottom: 16px;
+            
+        }
+
+        @media screen and (min-width: 1280px) {
+            width: 360px; 
+            height: 40px;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+ 
+    &__title {
+      width: 250px;
+      height: 80px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 26px;
+      line-height: 100%;
+
+      @media screen and (min-width:768px) {
+        width: 440px;
+        height: 60px;
+        margin-bottom: 50px;
+        font-size: 48px;
+          
+      }
+
+      @media screen and (min-width:1280px) {
+        width: 440px;
+        height: 60px;
+        margin-bottom: 50px;
+        font-size: 48px;
+          
+      }
+
+    }
+
+ 
+
+
+    
+}
+.about__img {
+    width: 280px;
+    height: 280px;
+    background-image: url("../images/about/cow-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+   
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    
+    background-image: url('../images/about/cow-mobile@2x.png');
+    }
+
+        @media screen and (min-width: 768px) {
+        background-image: url('../images/about/cow-tablet.png');
+        width: 340px;
+        height: 340px;
+        margin: 0px;
+        margin-right: 17px;
+        background-position: left;
+        float: left;
+        
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        
+        background-image: url('../images/about/cow-tablet@2x.png');
+    }
+}
+        @media screen and (min-width: 1280px) {
+        background-image: url('../images/about/cow-desktop.png');
+        width: 516px;
+        height: 516px;
+        margin: 0px;
+        margin-right: 74px;
+        background-position: left;
+        
+    
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    
+        background-image: url('../images/about/cow-desktop@2x.png');
+}
+}
+
+
+
+}
+
+.about__text {
+    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    
+
+    text-align: left;
+    line-height: 1.62em;
+    font-family: 'Dm Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-left:auto;
+        margin-bottom: 60px;
+        display: block;
+        float: left;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        margin: 0px;
+        margin-right: 0px;
+        margin-left:auto;
+        marging-bottom: 45px;
+        display: block;
+        float: left;
+    }
+
+    &_first-paragraph {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 47px;
+        width: 220px;
+        height: 80px;
+
+        @media screen and (min-width: 768px) {
+            width: 340px;
+            height: 80px;
+        }
+        
+    }
+    &_second-paragraph {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+        width: 220px;
+        height: 155px;
+        color: #907e82;
+
+        @media screen and (min-width: 768px) {
+            width: 340px;
+            height: 160px;
+            margin-bottom: 60px;
+        }
+        @media screen and (min-width: 1280px) {
+            width: 460px;
+            height: 160px;
+            margin-bottom: 45px;
+        }
+    }
+}
+.btn-about {
+    display: block;
+    width: 176px;
+    height: 44px;
+    color: $accent-color;
+    border-radius: 22px;
+    font-weight: 700;
+    border: none;
+    background-color: $white-color;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: auto;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        background-color: $button-hover-color;
+    }
+
+
+}
