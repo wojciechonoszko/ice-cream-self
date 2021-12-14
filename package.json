@@ -10,14 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/ice-cream-self.git
-    .git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Wojciech Onoszko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/ice-cream-self/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
