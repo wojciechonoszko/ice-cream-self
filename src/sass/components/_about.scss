@@ -4,9 +4,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50% 80%;
-    padding: 0px;
-    height: 860px;
-    margin-bottom: 40px;
+    padding-top: 130px;
+    height: 1030px;
 
     
    
@@ -22,18 +21,19 @@
 }
     @media screen and (min-width: 768px) {
         background-image: none;
-        height: 560px;
-        margin-bottom: 70px;
+        height: 760px;
+        padding-top: 130px;
+        
 
     
 }  
     @media screen and (min-width: $desktop) {
-        height: 720px;
+        height: 890px;
         background-size:100%;
         background-image: url('../images/about/about-bg-desktop.png');
         background-position: bottom;
-        padding: 0px;
-        margin-bottom: 40px;
+        padding-top: 130px;
+        
 
         @media (min-device-pixel-ratio: 2),
           (-webkit-min-device-pixel-ratio: 2),
