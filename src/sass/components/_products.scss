@@ -129,12 +129,25 @@
   }
   .product__title-span1 {
     color: #ffa5ba;
-    font-size: 30px;
+    font-size: 21px;
     margin-bottom: 15px;
+    @media screen and (min-width: $tablet){
+      font-size: 26px;
+    }
+    @media screen and (min-width: $desktop){
+      font-size: 30px;
+
+    }
   }
   .product__title-span2 {
-    font-size: 58px;
+    font-size: 34px;
     color: #d41443;
+    @media screen and (min-width: $tablet){
+      font-size: 48px;
+    }
+    @media screen and (min-width: $desktop){
+      font-size: 58px;
+    }
   }
   .product__img {
     width: 250px;
