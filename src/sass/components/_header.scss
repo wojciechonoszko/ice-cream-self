@@ -83,6 +83,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   z-index: 50;
+  position: fixed;
 
 
 }
@@ -329,7 +330,7 @@
     margin-left: 291px;
     right: 224px;
     top: 54px;
-    position: static;
+    
 
   }
   .navigation__button-icon-red {
@@ -354,13 +355,13 @@
   }
   .hamburger-menu--opened .line-1 {
     -webkit-transform: rotateZ(-405deg) translate(-4px, 4px) translateY(80px) translateX(135px);
-            transform: rotateZ(-405deg) translate(-4px, 4px) translateY(80px) translateX(135px);
+            transform: rotateZ(-405deg) translate(-4px, 4px) translateY(120px) translateX(180px);
     background-color: #ffffff;
   }
 
   .hamburger-menu--opened .line-3 {
     -webkit-transform: rotateZ(405deg) translate(-5px, -5px) translateY(-135px) translateX(80px);
-            transform: rotateZ(405deg) translate(-5px, -5px) translateY(-135px) translateX(80px);
+            transform: rotateZ(405deg) translate(-5px, -5px) translateY(-180px) translateX(120px);
     background-color: #ffffff;
   }
   .hero {
